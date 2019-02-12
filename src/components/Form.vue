@@ -148,13 +148,18 @@ export default {
 
 .auth__message {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 2px 2px 10px 0 gray;
+
+  @media screen and (max-width: 500px) {
+    top: 10%;
+    font-size: 14px;
+  }
 }
 
 .form {

@@ -1,7 +1,7 @@
 <template>
   <div v-if="login" class="hello">
     <div class="hello__container">
-      <h1>Добро пожаловать.</h1>
+      <h1 class="hello__header">Добро пожаловать.</h1>
     </div>
   </div>
 </template>
@@ -29,6 +29,13 @@ export default {
   padding: 20px 30px;
   box-shadow: 2px 2px 10px 0 gray;
   animation: fade 1.0s ease-in-out;
+  margin: 0 10px;
+}
+
+.hello__header {
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+  }
 }
 
 @keyframes fade {
