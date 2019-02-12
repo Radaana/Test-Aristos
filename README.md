@@ -1,4 +1,4 @@
-# aristos
+# Aristos
 
 Тестовое задание для компании Aristos
 
