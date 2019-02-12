@@ -1,5 +1,9 @@
 # aristos
 
+Тестовое задание для компании Aristos
+
+https://radaana.github.io/Test-Aristos/dist/index.html
+
 ## Project setup
 ```
 npm install
